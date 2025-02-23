@@ -1,52 +1,104 @@
-body {
-    font-family: Arial, sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #333;
+    background: #2c3e50;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 nav {
-    background-color: #444;
-    color: #fff;
-    padding: 10px;
+    background: #34495e;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #1abc9c;
+    border-radius: 5px;
 }
 
 main {
-    padding: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
 }
 
 section {
+    background: #fff;
+    padding: 40px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
+    background: #2c3e50;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
