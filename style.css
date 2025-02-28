@@ -11,12 +11,12 @@
 
 body {
     background: #f4f4f4;
-    color: #333;
+    color: #5202ff;
     line-height: 1.6;
 }
 
 header {
-    background: #2c3e50;
+    background: #0099ff;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    background: #34495e;
+    background: #ff0077;
     padding: 10px 0;
     position: sticky;
     top: 0;
