@@ -11,7 +11,7 @@ This is a personal portfolio website for **3EM SD1**, designed using **HTML & CS
 
 ## 🚀 Technologies Used
 
-- HTML5  
+- HTML5 (Header, nav, section, main, footer)
 - CSS3 (Flexbox, Grid, Responsive Design)  
 
 Let me know if you want any modifications! 😊
